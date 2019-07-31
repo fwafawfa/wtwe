@@ -10,7 +10,7 @@ client.on('ready', () => {
    console.log(`----------------`);
       console.log(`b 1.0`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : DREAM ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : Avatar ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
 });
