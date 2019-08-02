@@ -37,6 +37,9 @@ client.on('ready', () => {
     client.user.setGame(dream, "https://www.twitch.tv/Avatar");
          message.channel.send(`✔️ **Done Stream Now  __${dream}__ **`)
       }
+    if (message.content.startsWith(prefix + 'setava')) {
+    client.user.setAvatar(argresult);
+     message.channel.send(`Changing The Avatar To :**${argresult}** `);
  
     });
 
